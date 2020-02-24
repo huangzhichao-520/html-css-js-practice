@@ -1,0 +1,338 @@
+*{margin: 0;padding: 0;}
+.logo{
+    height: 60px;
+    background-color: rgb(24, 190, 190);
+    text-align: center;
+}
+.head{
+    background-color: rgb(224, 224, 224);
+}
+.head-wrap{
+    height: 40px;
+    width: 1000px;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+.head-left{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.head-left>img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.head-left>p{
+    margin-left: 50px;
+}
+.head-right{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    right: 0;
+    top: 0; 
+}
+.head-right>img{ float: left;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.head-right>p{
+    margin-left: 70px;
+}
+.head-wrap>a{
+    text-decoration: none;
+    margin-right: 60px;
+    margin-top: 10px;
+    color: #333;
+}
+.head-wrap p{
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container>p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.nav{
+    background-color: rgb(224, 224, 224);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.nav>div{
+    height: 40px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    float: left;
+    width: 70px;
+    text-align: center;
+    line-height: 30px;
+}
+.nav-ul>li:nth-child(1){
+    color: rgb(120, 210, 210);
+}
+.nav-ul>li:nth-child(3){
+    border: 1px solid rgb(250, 180, 51);
+    background: rgb(224, 224, 224);
+}
+.nav-ulone7,.nav-ulfour4,.nav-ulfour5{
+    margin-right: 1em;
+}
+.nav-ulfour6{
+    margin-right: 2em;
+} 
+.nav img{
+    position: absolute;
+    top: 61.5%;
+    left: 71%; 
+}
+.search-wrap {
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+.search-left{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.search-center{
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+.search-center>input{
+    width: 250px;
+    height: 38px;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+}
+.search-center>img{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    right:30px;
+}
+.search-center>button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    z-index: 100;
+    position: absolute;    
+    top: 13%;
+    right: -14px;
+    background: white;
+}
+.search-right{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.search-right>img{
+    position: absolute;
+    top: 3px;
+    left: -20px;
+}
+.search-right>a{
+    text-decoration: none;
+    color: aqua;
+}
+.content{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.content>.one,.content>.two{
+    margin-right: 13px;
+}
+.content>.three{
+    margin-right: 14px;
+}
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.content>div{
+    width: 238px;
+    height: 360px;
+    float: left;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid #333;
+}
+.content p{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.orange{
+    color: rgb(250, 180, 51)!important;
+}
+#content-lastp{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(140, 213, 213);
+}
+.content span{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.slide{
+    height: 40px;
+    position: relative;
+    margin-top: 30px;
+}
+.slide>.left{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 14%;
+    background-color: rgb(224, 224, 224);
+    border-style: none;
+}
+.slide>.center{
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: rgb(224, 224, 224);
+    border-style: none;
+}
+.slide>ul{
+    list-style: none;
+    margin-left: 160px;
+}
+.slide li{
+    float: left;
+    width: 30px;
+    margin-top: 10px;
+}
+.li-two{
+    color: rgb(247, 171, 7);
+    text-decoration: underline;
+}
+.slide>input{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+.slide>.right{
+    width: 65px;
+    height: 30px;
+    color: white;
+    background-color: rgb(247, 171, 7);
+    border-style: none;
+    margin-left: 40px;
+}
+.small-weixin{
+    margin-top: 30px;
+}
+.small-weixin>img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.small-weixin>.one{
+    font-size: 22px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.foot{
+    background-color: rgb(81, 81, 81);
+    height: 220px;
+    margin-top: 20px;
+}
+.foot-top{
+    height: 180px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #eee;
+}
+.foot-top>.left{
+    width: 400px;
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.foot-top>.center-one{
+    width: 100px;
+    font-size: 14px;
+    float: left;
+    margin-left: 80px;
+}
+.foot-top>.center-two{
+    width: 100px;
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+}
+.center-one,.center-two{
+    color: #eee;
+    margin-top: 60px;
+    line-height: 30px;
+}
+.foot-top>.right{
+    width: 100px;
+    font-size: 14px;
+    float: left;
+}
+.foot-top>.right{
+    margin-top:60px;
+    margin-left: 70px; 
+    color: #eee;
+}
+.foot-p-one{
+    color: #eee;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.foot-p-two{
+    color: #eee;
+    line-height: 20px;
+}
+.foot-bottom{
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    position: relative;
+}
+.foot-bottom>.left{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.foot-bottom>.right{
+    position: absolute;
+    right: 20px;
+}
